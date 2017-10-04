@@ -39,6 +39,11 @@ class NearleyBasedReader {
 console.dir(new NearleyBasedReader(parser).read('path/to/file'))
 ```
 
+## Options
+
+Currently there is only one option - `baseDir`. This option must contain the path to the directory with the grammar files relative to the location of the Webpack configuration file.
+
+
 ## License
 
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
