@@ -1,0 +1,14 @@
+{
+  "name": "nearley-webpack-loader",
+  "author": "antonshan",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonShan/nearley-webpack-loader.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "nearley": "^2.11.0"
+  }
+}
