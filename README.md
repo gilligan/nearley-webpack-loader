@@ -1,6 +1,6 @@
 # nearley-webpack-loader
 
-This loader lets you load nearley parser grammar files into your application code
+This loader lets you load nearley parser grammar files into your application code.
 
 ## Usage
 
@@ -9,7 +9,7 @@ This loader lets you load nearley parser grammar files into your application cod
     rules: [
       {
         test: /\.ne$/,
-        loader: 'nearley-loader',
+        loader: 'nearley-webpack-loader',
         options: {
           baseDir: './src/grammar/'
         }
